@@ -27,7 +27,7 @@ main {
 }
 
 .g-header, .g-footer {
-    background-color: #004477;
+    background-color: #0051ffee;
     padding: 20px;
     display: flex;
     flex-direction: column;
@@ -44,7 +44,7 @@ a {
     text-decoration: underline;
 
     &:visited {
-        color:white;
+        color:rgb(0, 0, 0);
     }
 }
 
