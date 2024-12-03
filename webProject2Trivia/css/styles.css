@@ -1,0 +1,102 @@
+body {
+    background-color: #000000;
+    color: #fd7a00;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    padding: 20px;
+    margin: auto;
+    width: 100%;
+    background-image: url('../images/pxfuel.jpg');
+    background-size: cover;
+    background-position:inherit;
+    background-repeat: no-repeat;
+}
+
+h3 {
+    padding-top: 20px;
+    align-items: center;
+    text-align: center; 
+}
+
+.questions {
+    font-family: "Shlop";
+    src: url('../fonts/shlop-rg.woff') format('woff');
+}
+
+.choices {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+    font-size: 35px;
+}
+
+.target {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+@font-face {
+    font-family: "Zombies Brainless";
+    src: url('../fonts/Zombies-Brainless.woff') format(opentype);
+}
+
+@font-face {
+    font-family: "Shlop";
+    src: url(../fonts/shlop-rg.woff) format(opentype);
+}
+
+.choose {
+    font-family: "Shlop";
+    src: url('../fonts/shlop-rg.woff') format('woff');
+    font-size: 35px;
+}
+
+.caption {
+    margin-top: 20px;
+    font-weight: bolder;
+    font-size: 30px;
+}
+
+/* @font-face {
+    font-family: "Zombies Brainless";
+    src: url('../fonts/Zombies\ Brainless.otf') format('opentype');
+} */
+
+header {
+    font-size: 30px;
+    text-align: center;
+    align-content: center;
+    font-family: "Zombies Brainless";
+    src: url('../fonts/Zombies-Brainless.woff') format('woff');
+}
+   
+img {
+    align-content: center;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 40px;
+    width: 500px;
+    height: 350px;
+}
+
+a {
+    font-size: x-large;
+    text-decoration: none;
+    color: #fd7a00;
+    display: block;
+}
+
+a:visited {
+    color: #ff0000;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.centerimages {
+    padding-top: 10px;
+    align-items: center;
+    text-align: center; 
+}

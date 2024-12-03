@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Share+Tech&display=swap');
+
+/* --------------------------------------------- global styles */
+.g-base {
+    background-color: #FFFFFF;
+    color: #3d5170;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1rem;
+    padding: 20px;
+    
+    display:flex;
+    justify-content: center;
+    align-items:center;
+}
+
+.g-heading {
+    font-family: "share tech";
+    font-size: 2.5rem;
+    font-weight:bold;
+}
+
+.g-sub-heading {
+    font-size: 1rem;
+    letter-spacing: 8px;
+    font-weight: 600;
+    color: #6f7276;
+}
+
+a {
+    text-decoration: none;
+    color: #3d5170;
+    &:visited {
+        color: #3d5170;
+    }
+    &:hover {
+        text-decoration: underline;
+    }
+}
+
+/* --------------------------------------------- multipage styling */
+#p-home #s-thumbnail-links figure, 
+#p-thumbnail #s-poster figure {
+    margin: 0px;
+    padding-bottom: 20px;
+    padding-right: 20px;
+}
+
+#p-home #s-thumbnail-links figcaption, 
+#p-thumbnail #s-poster figcaption {
+    font-size:0.8rem;
+    font-weight: 900;
+    color: #6f7276;
+    padding-top:3px;
+}
+
+/* --------------------------------------------- p-home styling */
+
+#p-home footer {
+    font-weight: bold;
+}
+
+#p-home aside {
+    max-width: 800px;
+    padding-top:10px;
+	padding-bottom:10px;
+    border-top: dotted 2px #3d5170;
+	margin-top:10px;
+}
+
+#p-home #s-thumbnail-links {
+    max-width: 880px;
+    padding-top:20px;
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+#p-home #s-thumbnail-links img {
+    border-radius: 5px;
+    width: 200px;
+    height: 298px;
+}
+
+/* --------------------------------------------- p-thumbnail styling */
+#p-thumbnail #s-navigation {
+    padding-bottom:20px;
+    display:flex;
+
+    i {
+        padding-right:8px;
+    }
+
+    .nav-link {
+        padding-right:20px;
+        font-weight:bold;
+    }
+
+    .nav-link:nth-of-type(3) {
+        padding-left:20px;
+        border-left: 2px dotted #6f7276;
+    }
+}
+
+#p-thumbnail #s-poster .full-image {
+    border-radius: 10px;
+    width:469px;
+    height:700px;
+}
+
+/* --------------------------------------------- media queries */
+@media (max-width: 500px) {
+    #p-home #s-thumbnail-links {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #p-home #s-thumbnail-links figure {
+        padding-right: 0px;
+    
+    }
+    #p-thumbnail #s-poster .full-image {
+        width:300px;
+        height: 450px;
+    }
+}

@@ -1,0 +1,27 @@
+body {
+    margin: 20px;
+}
+
+header {
+    padding-bottom: 20px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 2rem;
+    color: #5f7891;
+}
+
+table {
+    border-collapse: collapse;
+}
+
+td {
+    border: dotted 2px #AABBCC;
+    padding: 10px;
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 1.25rem;
+}
+
+tr:first-of-type td, tr td:first-of-type {
+    color: #5f7891;
+    font-weight: 700;
+}
